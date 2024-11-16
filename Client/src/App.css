@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 24px;
+}
+
+.map-container {
+  display: flex;
+  height: 100vh;
+}
