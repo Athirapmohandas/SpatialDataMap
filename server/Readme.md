@@ -28,7 +28,7 @@ Set up a virtual environment to manage dependencies:
 
 ```bash
 py -m venv env
-.\env\Scriptsctivate
+.\env\Scripts\Activate
 ```
 
 ### 3. Install Dependencies
@@ -41,15 +41,7 @@ pip install -r requirements.txt
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file in the root directory based on the `env.example` file:
-
-```plaintext
-# Example format
-DB_HOST=localhost
-DB_NAME=your_database_name
-DB_USER=your_username
-DB_PASSWORD=your_password
-```
+Create a `.env` file in the root directory based on the `env.example` file
 
 Replace placeholders with your actual environment-specific details.
 
